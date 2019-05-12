@@ -29,6 +29,9 @@ public class Practise1ArrayList {
 		}
 		ShoppingList.clear();
 		System.out.println(ShoppingList);
+		
+		
+		
 
 	}
 }

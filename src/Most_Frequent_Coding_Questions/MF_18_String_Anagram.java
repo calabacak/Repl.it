@@ -3,8 +3,8 @@ package Most_Frequent_Coding_Questions;
 public class MF_18_String_Anagram {
 	public static void main(String[] args) {
 
-		String str1 = "sadanda";
-		String str2 = "adanada";
+		String str1 = "adandaa";
+		String str2 = "aadnada";
 		int count1 = 0;
 		int count2 = 0;
 		if (str1.length() != str2.length()) {
@@ -21,7 +21,7 @@ public class MF_18_String_Anagram {
 						if (str1.charAt(j) == (str2.charAt(i))) {
 							count1++;
 						}
-						if (str2.charAt(j) == (str2.charAt(i))) {
+						if (str2.charAt(j) == (str2.charAt(i))) {//take a look at this
 							count2++;
 						}
 					}
