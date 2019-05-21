@@ -10,7 +10,7 @@ public class Computer {
 		brand ="Unknown";
 		os="unknown";
 	}
-	
+	// constructor, we can use this to initialize
 	public Computer(String brand,String os,double price) {
 		System.out.println("in 3 args constructor");
 		this.brand=brand;

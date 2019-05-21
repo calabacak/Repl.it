@@ -4,11 +4,12 @@ public class Pet {
 	private  String type;
 	private String name;
 	
+	// two args constructor
 	public Pet(String type, String name) {
 		this.type=type;
 		this.name= name;
 	}
-	//
+	// nor args constructor
 	public Pet() {
 		System.out.println("No Args Constructor");
 	}
@@ -39,10 +40,6 @@ public class Pet {
 		
 	}
 	
-	private void swithc() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	public String toString() {
 		return "Pet [type=" + type + ", name=" + name + "]";

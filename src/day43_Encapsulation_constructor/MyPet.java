@@ -11,6 +11,7 @@ public class MyPet {
 		Pet myPet6= new Pet("Bird", "Chika");
 		
 		myPet1.speak();
+		myPet2.speak();
 		
 		System.out.println(myPet1.toString());
 		System.out.println(myPet2.toString());

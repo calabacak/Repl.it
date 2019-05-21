@@ -60,4 +60,41 @@ public class MF_02_Prime_Numbers {
 	return prime;
 		
 	}
+	///////////////////////////// the best may 19 2019
+	public static boolean isPrimeNumber(int num) {
+
+		// if divisible by 1 and by itself;
+
+		for (int i = 2; i < num; i++) {
+			if (num % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+	/////////////////ArrayList may 19 2019;
+	
+	public static ArrayList<Integer> isPrimeNumberv2(int num) {
+
+		// if divisible by 1 and by itself;
+
+		ArrayList<Integer> plist = new ArrayList<>();
+		ArrayList<Integer> notplist = new ArrayList<>();
+
+		for (int i = 2; i < num; i++) {
+			int count = 0;
+			for (int j = 2; j < i; j++) {
+				if (i % j == 0) {
+					count++;
+				}
+			}
+			if (count == 0) {
+				plist.add(i);
+			}else {
+				notplist.add(i);
+			}
+		}
+System.out.println(notplist);
+return plist;
+	}
 }

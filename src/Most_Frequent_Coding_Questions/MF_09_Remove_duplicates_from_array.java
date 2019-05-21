@@ -42,5 +42,36 @@ public class MF_09_Remove_duplicates_from_array {
 		}
 		return (result);
 	}
+	/////check this, 19 may seems more robust
+	public static String[] removeDublicates(String[] fruits) {
+		int size = 0;
+		for (int i = 0; i < fruits.length; i++) {
+			int count = 0;
+			for (int j = 0; j < fruits.length; j++) {
+				if (fruits[i].contentEquals(fruits[j]) && i != j) { //finding the unique element
+					count++;
+				}
+			}
+			if (count == 0) {
+				size++;
+			}
+		}
+		String[] arrnew = new String[size];
+		int k = 0;
+		
+		for (int i = 0; i < fruits.length; i++) {
+			int ncount = 0;
+			for (int j = 0; j < fruits.length; j++) {
+				if (fruits[i].contentEquals(fruits[j]) && i != j) {
+					ncount++;
+				}
+			}
+			if (ncount == 0) {
+				arrnew[k] = fruits[i];
+				k++;
+			}
+		}
+		return arrnew;
+	}
 
 }
