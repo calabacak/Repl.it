@@ -1,19 +1,28 @@
 package day47_blocks;
 
 public class CallPeopleFromHere {
-	public static void main(String[] args) {
-		
-		People myManNursultan = new People();
-		System.out.println(myManNursultan.hardToGet);
-		System.out.println(myManNursultan.easyToGet);
-		System.out.println(People.easyToGet);// because it is static
-		
-		
-		People.whatMyName();// static can be called by the className.methodName();
-		myManNursultan.sayMyName();
-		myManNursultan.whatMyName();// object can also call 
-		
-		
-	}
+	
 
-}
+		
+		
+		public static void main(String[] args) {
+			//need to create object to access
+			//non static variable
+			People mymanNursultan = new People();
+			System.out.println(mymanNursultan.hardToGet);
+			
+			// NO need to create object to access
+			//static variable
+			System.out.println(People.easyToGet);
+			
+			//use object to access the 
+			//non static method
+			mymanNursultan.sayMyName();
+			
+			//use class name to access
+			//the static method
+			People.whatMyName();
+			
+		}
+			
+		}

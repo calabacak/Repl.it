@@ -162,7 +162,12 @@ public static void main(String[] args) {
 		boolean a= false;
 	//	switch (a) {	}
 		// double, long, float, boolean ,  Double, Long, Float, Boolean
-		
+	     int[] num11=new int[3];
+         int[] num22= {1,2,3,4,5};
+              num11=num22;
+    for(int i=0; i<num11.length; i++) {
+               System.out.print(num11[i]+"ccc");
+           }
 	
 		
 		

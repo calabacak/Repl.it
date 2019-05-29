@@ -4,7 +4,7 @@ public class ST_06_SortingIntArrays {
 	public static void main(String[] args) {
 
 		int[] myArray = { 7, 4, 9, 2, 5, 1, 99, 56, 137, 32 };
-		String [] names = {"cengiz", "ali", "burak","zeynep","ceyda","ceren","ahmet"};
+		String[] names = { "cengiz", "ali", "burak", "zeynep", "ceyda", "ceren", "ahmet" };
 
 		getSortedArrayMintoMax(myArray);
 		for (int num : myArray) {
@@ -16,23 +16,19 @@ public class ST_06_SortingIntArrays {
 		getSortedArrayMaxToMin(myArray);
 		for (int num : myArray) {
 			System.out.print(num + ", ");
-			
-			
+
 			////////////////
-			
+
 			getSortedArrayAlphabetically(names);
-			
-			for(String name:names) {
+
+			for (String name : names) {
 				System.out.println(name);
 			}
-			
-			
-			
-			
-			
+
 		}
 
 	}
+
 //////////////////////////////////////////////////////////////////
 	public static int[] getSortedArrayMintoMax(int[] nums) {
 		int temp;
@@ -65,22 +61,21 @@ public class ST_06_SortingIntArrays {
 		}
 		return nums;
 	}
-	
+
 	public static String[] getSortedArrayAlphabetically(String[] names) {
 		String temp;
-		
-		for(int i =0; i<names.length-1;i++) {
-			
-			if(			(names[i+1].compareTo(names[i])>0)) {
-				temp= names[i+1];
-				names[i+1]=names[i];
-				names[i]=temp;
+
+		for (int i = 0; i < names.length - 1; i++) {
+
+			if ((names[i + 1].compareTo(names[i]) > 0)) {
+				temp = names[i + 1];
+				names[i + 1] = names[i];
+				names[i] = temp;
 			}
-			
-			
-		}return names;
-		
+
+		}
+		return names;
+
 	}
-	
-	
+
 }

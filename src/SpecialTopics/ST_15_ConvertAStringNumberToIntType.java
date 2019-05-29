@@ -22,6 +22,10 @@ public class ST_15_ConvertAStringNumberToIntType {
 		int b = 5432;
 		String astr2 = Integer.toString(b);
 		System.out.println(astr2 + 1);
+////////converting an int number to string type:)	
+		int c = 5432;
+		String astr3 = ""+c;
+		System.out.println(astr2 + 1);
 
 /////// any other way to convert a string number to integer number? lets see;
 
