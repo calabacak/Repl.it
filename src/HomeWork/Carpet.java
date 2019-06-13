@@ -1,5 +1,5 @@
 package HomeWork;
-
+//203. OOP 7 - carpet class
 public class Carpet {
 	 
 	 //do not change -- Start

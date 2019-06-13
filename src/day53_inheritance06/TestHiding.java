@@ -16,8 +16,8 @@ public class TestHiding {
 		
 		City city2 = new City(4561,"Fairfax");
 		Capital cap2= new Capital(2345,"Richmond", 9734123L);
-		city2.buildARoad();
-		cap2.buildARoad();
+		city2.buildARoad();//city
+		cap2.buildARoad();//city
 		
 	}
  

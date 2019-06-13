@@ -1,5 +1,5 @@
 package HomeWork;
-
+//208. Static 1 - Telephone
 public class Telephone {
 	String number;
 	public static int quantity=250;
@@ -19,7 +19,8 @@ public class Telephone {
 	
 	
 	/*
-	 * Create getNumber() and setNumber() methods that will manipulate with number instance variable.
+	 * Create getNumber() and setNumber() methods that will manipulate with 
+	 * number instance variable.
 	 */
 
 	

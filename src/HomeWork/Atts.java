@@ -1,5 +1,5 @@
 package HomeWork;
-
+//191. OOP 1 -print attributes
 public class Atts {
 	
 	String name;

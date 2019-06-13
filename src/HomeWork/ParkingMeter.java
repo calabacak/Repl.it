@@ -1,5 +1,5 @@
 package HomeWork;
-
+//205. OOP 8 - parking meeter
 public class ParkingMeter {
 	/*
 	 * Two instance variables named timeLeft and maxTime of type int. 
