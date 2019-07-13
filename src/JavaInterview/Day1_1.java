@@ -209,6 +209,22 @@ public class Day1_1 {
 				
 				*finalize() method is executed by Garbage Collector before the object is destroyed, 
 				it’s great way to make sure all the global resources are closed.
+				
+				finally:
+	code in finally block runs always, even if exception happens or no. Unless there is System.exit(0) statement, or JVM crash.
+
+	In finally block, i normally put clean up code, that closes any open files, database connections etc.
+	Application of finally block: So basically the use of finally block is resource deallocation. 
+	Means all the resources such as Network Connections, Database Connections, 
+	which we opened in try block are needed to be closed, so that we won’t lose our resources as opened. 
+	So those resources are needed to be closed in finally block. 
+	The finally block is a key tool for preventing resource leaks. 
+	When closing a file or otherwise recovering resources, place the code in a finally block to 
+	ensure that resource is always recovered.
+
+finalize method
+	It is a method that the Garbage Collector always calls just before the deletion/destroying 
+	the object which is eligible for Garbage Collection, so as to perform clean-up activity.
 
 
 				

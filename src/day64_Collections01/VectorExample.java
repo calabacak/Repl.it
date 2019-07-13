@@ -9,6 +9,8 @@ public class VectorExample {
 		v.add("Ceyda");
 		v.add("Ceren");
 		v.add("Duru");
+		Vector<String> ve = new Vector<>();
+	
 		
 		//threadsafe, sycnronized
 		

@@ -13,6 +13,16 @@ public class TreeSetExample {
 		tSet.add(100);
 		System.out.println(tSet);
 		
+		TreeSet<String> tSet2 = new TreeSet<>();
+		tSet2.add("BB");
+		tSet2.add("AA");
+		tSet2.add("ZZ");
+		tSet2.add("BB");
+		tSet2.add("EE");
+		tSet2.add("DD");
+		System.out.println(tSet2);
+		
+		
 	}
 
 }

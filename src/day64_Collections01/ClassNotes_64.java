@@ -30,14 +30,14 @@ public class ClassNotes_64 {
  * Array - collection data of same type, 
  * 		It is fixed size. 
  * 		Data keeps ordering.
- * 		Allows dublicates
+ * 		Allows duplicates
  * 		Can store primitives and objects
  * 		Can be multidimensional
  * 		
  *int [] nums =  new int [5];
  *
  *
- *Collection FrameWork Consists Of hierarcy of Interfaces
+ *Collection FrameWork Consists Of hierarchy of Interfaces
  *Each interface has multiple implementations (implementing classes)
  *
  *IQ What is the difference between list set and map?
