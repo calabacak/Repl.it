@@ -6,7 +6,25 @@ public class Day2 {
 public static void main(String[] args) {
 		
 		/*
+		 * 0. IS A and HAS A releation ship
+		 * Inheritance (is-a) relationships are derived child classes that inherit attributes and methods from their parent class. 
+		 * Composition (has-a) relationships are classes whose attributes are comprised of other classes. 
+		 * is-a is a concept of inheritance, while  has-a  use the instance variable that reference to other object
+		 * 
+		 * For Example: Car HAS A Engine and Car IS A Automobile
+In programming this is represented as:
+class Automobile{} // Automobile class which is parent to Car class.
+class Engine {} // The engine class.
+// Car is an Automobile, so Car class extends Automobile class.
+class Car extends Automobile{
+// Car has a Engine so, Car class has an instance of Engine class as its member.
+private Engine engine;
+}
+		 * 
+		 * 
+		 * 
 		 	1. how did you use in your framework?:
+		 	Object Oriented Programming takes its power from reflecting the real world analogy.
 		 	
 		 * INHERITANCE 
 		 	All the reusable data we can store it in a class, and rest of the class can inherit them
