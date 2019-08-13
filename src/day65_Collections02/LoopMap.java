@@ -25,9 +25,7 @@ public class LoopMap {
 		//url | qa3.vytrack.com
 		System.out.println("#####KEY | VALUES: #####");
 		
-		for(String key : dataMap.keySet()) {
-			System.out.println(key + " | " + dataMap.get(key));
-		}
+ 
 		
 		Map<Integer, Student> studentsMap = new HashMap<>();
 		Map<String, String[]> data = new HashMap<>();

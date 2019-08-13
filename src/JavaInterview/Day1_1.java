@@ -75,9 +75,9 @@ public class Day1_1 {
 		
 		5. Briefly explain the differences between Array and ArrayList
 		They are used to store multiple values in a single variable, 
-					1. First and majaor Array is fixed size, ArrayList is dynamic size(expanded or shrinked)
+					1. First and major Array is fixed size, ArrayList is dynamic size(expanded or shrinked)
 					2. ArrayList does not support primitive
-					3. Array can be multi-dimensional (ArrayList can be also multidemensional) it's considered as list of lists, not multi-dimensional
+					3. Array can be multi-dimensional (ArrayList can be also multi-dimensional) it's considered as list of lists, not multi-dimensional
 									
 		
 		6. What are the primitives and wrapper classes in java? Their differences
@@ -142,7 +142,7 @@ public class Day1_1 {
 				(there is no object instances in static method, so in order to call non static we must create the object)
 				- can we call static method from non-static vice versa	
 		 			 I can not call a non static method from  static method, because there is no object.
-		 			 (i can only if i have ceated an object)
+		 			 (i can only if i have created an object)
 		 			 But I can call a static method from non static/static method because if there is a static method there is a class.
 		 			 
 		10.	what’s constructor? Declaration ?
